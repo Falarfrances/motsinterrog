@@ -15,6 +15,7 @@ const tabs = [
   { id: "section2", label: "✏️ Exercices 6–10" },
   { id: "section3", label: "🧩 Exercices 11–15" },
   { id: "production", label: "🗣️ Production" },
+  { id: "jeu", label: "🃏 Jeu" },
   { id: "annexe", label: "📖 Annexe" },
 ];
 
