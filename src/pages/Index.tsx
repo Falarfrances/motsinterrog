@@ -8,6 +8,7 @@ import MatchingExercise from "@/components/MatchingExercise";
 import TrueFalseExercise from "@/components/TrueFalseExercise";
 import CorrectionExercise from "@/components/CorrectionExercise";
 import ProductionSection from "@/components/ProductionSection";
+import MemoryGame from "@/components/MemoryGame";
 
 const tabs = [
   { id: "section1", label: "📝 Exercices 1–5" },
