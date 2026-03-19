@@ -54,7 +54,7 @@ const Index = () => {
       <header className="bg-card border-b border-border">
         <div className="max-w-3xl mx-auto px-4 py-6 flex items-center gap-4">
           <img src={logo} alt="Vou Falar Francês" className="h-14 md:h-18 shrink-0" />
-          <div>
+          <div className="flex-1 text-center">
             <h1 className="text-2xl md:text-3xl font-display text-foreground">
               Les Mots Interrogatifs
             </h1>
