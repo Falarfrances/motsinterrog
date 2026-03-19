@@ -52,14 +52,14 @@ const Index = () => {
     <div className="min-h-screen bg-background" key={key}>
       {/* Header */}
       <header className="bg-card border-b border-border">
-        <div className="max-w-3xl mx-auto px-4 py-6 flex flex-col items-center">
-          <div className="flex items-center gap-3 mb-1">
-            <img src={logo} alt="Vou Falar Francês" className="h-14 md:h-18" />
+        <div className="max-w-3xl mx-auto px-4 py-6 flex items-center gap-4">
+          <img src={logo} alt="Vou Falar Francês" className="h-14 md:h-18 shrink-0" />
+          <div>
             <h1 className="text-2xl md:text-3xl font-display text-foreground">
               Les Mots Interrogatifs
             </h1>
+            <p className="text-muted-foreground text-sm mt-1">Niveau A1 — Les 8 mots clés pour poser des questions</p>
           </div>
-          <p className="text-muted-foreground text-sm mt-1">Niveau A1 — Les 8 mots clés pour poser des questions</p>
         </div>
       </header>
 
