@@ -253,6 +253,9 @@ const Index = () => {
         {/* Production */}
         {activeTab === "production" && <ProductionSection />}
 
+        {/* Jeu */}
+        {activeTab === "jeu" && <MemoryGame />}
+
         {/* Annexe */}
         {activeTab === "annexe" && (
           <div>
