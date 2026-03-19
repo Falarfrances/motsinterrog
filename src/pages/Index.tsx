@@ -53,10 +53,12 @@ const Index = () => {
       {/* Header */}
       <header className="bg-card border-b border-border">
         <div className="max-w-3xl mx-auto px-4 py-6 flex flex-col items-center">
-          <img src={logo} alt="Vou Falar Francês" className="h-16 md:h-20 mb-3" />
-          <h1 className="text-2xl md:text-3xl font-display text-foreground text-center">
-            Les Mots Interrogatifs
-          </h1>
+          <div className="flex items-center gap-3 mb-1">
+            <img src={logo} alt="Vou Falar Francês" className="h-14 md:h-18" />
+            <h1 className="text-2xl md:text-3xl font-display text-foreground">
+              Les Mots Interrogatifs
+            </h1>
+          </div>
           <p className="text-muted-foreground text-sm mt-1">Niveau A1 — Les 8 mots clés pour poser des questions</p>
         </div>
       </header>
