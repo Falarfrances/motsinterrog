@@ -208,6 +208,16 @@ const Index = () => {
               rightOptions={["Personne", "Lieu", "Quantité"]}
               onScore={handleScore(11)}
             />
+            <MatchingExercise
+              number={12}
+              pairs={[
+                { left: "Quand", rightLabel: "Moment", correctRight: 2 },
+                { left: "Comment", rightLabel: "Manière", correctRight: 0 },
+                { left: "Quel", rightLabel: "Définition/Choix", correctRight: 1 },
+              ]}
+              rightOptions={["Manière", "Définition/Choix", "Moment"]}
+              onScore={handleScore(12)}
+            />
             <h2 className="text-lg font-display text-foreground mb-4 mt-6">Vrai ou Faux (13)</h2>
             <TrueFalseExercise
               number={13}
