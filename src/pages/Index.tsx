@@ -8,12 +8,14 @@ import MatchingExercise from "@/components/MatchingExercise";
 import TrueFalseExercise from "@/components/TrueFalseExercise";
 import CorrectionExercise from "@/components/CorrectionExercise";
 import ProductionSection from "@/components/ProductionSection";
+import MemoryGame from "@/components/MemoryGame";
 
 const tabs = [
   { id: "section1", label: "📝 Exercices 1–5" },
   { id: "section2", label: "✏️ Exercices 6–10" },
   { id: "section3", label: "🧩 Exercices 11–15" },
   { id: "production", label: "🗣️ Production" },
+  { id: "jeu", label: "🃏 Jeu" },
   { id: "annexe", label: "📖 Annexe" },
 ];
 
@@ -250,6 +252,9 @@ const Index = () => {
 
         {/* Production */}
         {activeTab === "production" && <ProductionSection />}
+
+        {/* Jeu */}
+        {activeTab === "jeu" && <MemoryGame />}
 
         {/* Annexe */}
         {activeTab === "annexe" && (
