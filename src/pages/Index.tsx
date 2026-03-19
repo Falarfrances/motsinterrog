@@ -228,11 +228,10 @@ const Index = () => {
               number={15}
               question="Tu veux aller au musée. Tu demandes :"
               options={[
-                { label: "a) Où est le musée ?", correct: true },
-                { label: "b) Comment aller au musée ?", correct: true },
+                { label: "a) Où est le musée ?", correct: false },
+                { label: "b) Comment aller au musée ?", correct: false },
                 { label: "c) Les deux", correct: true },
               ]}
-              multiCorrect
               explanation="En contexte réel, les deux questions sont possibles."
               onScore={handleScore(15)}
             />
